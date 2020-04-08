@@ -1,9 +1,9 @@
 import React from 'react'; //engine 
 import ReactDOM from 'react-dom'; // engine is doing dom manipulation. we are rendering to a webpage. ReactNative renders to mobile.
 import './index.css';
-import App from './App';
+import App from './containers/App';
 import 'tachyons';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './components/serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
